@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav1{
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+h4{
+    border: 1px solid black;
+    border-radius: 50px;
+    font-weight: 5;
+    padding: 5px;
+}
+
+i{
+    border: 1px solid black;
+    border-radius: 50px;
+    font-weight: 5;
+    padding: 5px;
+}
+#nav2{
+    display: flex;
+    align-items: center;
+}
+#nav2 img{
+    width: 50px;
+    height: 50px;
+}
+
+#nav2 h1{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav3{
+    padding-right: 50px;
+}
+
+button{
+    border: 1px solid black;
+    border-radius: 50px;
+    font-weight: 5;
+    background-color: white;
+    padding: 5px;
+}
+
+#signup{
+    background-color: orangered;
+    border: none;
+}
+
+#content h1{
+    text-transform: uppercase;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+#content img{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+
+#content #img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#content #img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#content #img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0%;
+}
+
+#footer1{
+    padding-left: 50px;
+}
+
+#footer1 img{
+    width: 10px;
+    height: 10px;
+}
+
+#footer1 h6{
+    font-size: 12px;
+}
+
+#footer3{
+    padding-right: 50px;
+}
+
+#footer3 i{
+    margin: 4px;
+}
+
+#footer3 h6{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+
